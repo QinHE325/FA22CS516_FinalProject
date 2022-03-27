@@ -5,6 +5,19 @@ product listings and an inventory of products for sale. Users can browse and pur
 Transactions are conducted within the website using virtual currency. Users can review products
 and sellers who fulfill their orders.
 
+## Usage
+````
+```
+# start postgre service
+sudo service postgresql start
+
+# environment
+source env/bin/activate
+
+# start app
+flask run
+```
+````
 
 ## Project Option
 Project: Standard Course Project - Mini-Amazon(Minazon)
