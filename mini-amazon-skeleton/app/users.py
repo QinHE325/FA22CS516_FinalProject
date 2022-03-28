@@ -75,3 +75,7 @@ def logout():
     logout_user()
     return redirect(url_for('index.index'))
 
+
+@bp.route('/updateInventory', methods=['GET', 'POST'])
+def update():
+    pass
